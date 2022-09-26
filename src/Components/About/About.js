@@ -1,5 +1,6 @@
 import React from 'react';
-import myImg from '../../assets/2.jpg'
+import myImg from '../../assets/2.jpg';
+import './About.css';
 const About = () => {
     return (
         <div name='about' className='md:h-screen  flex flex-col w-full px-12 py-12 items-center  justify-center text-white bg-gradient-to-b from-black to-gray-800 '>
@@ -19,12 +20,15 @@ const About = () => {
 
 
 
-                <div className=' text-white text-center py-12'>
-                    <p className='sm:text-right text-4xl font-bold text-white py-5'>Hi. I'm Raian Ibn Faiz </p>
-                    <p className='text-justify'>I am passionate about building excellent website that improves
+                <div className='about-text text-white flex flex-col text-center py-12'>
+                    <p className='sm:text-center text-4xl font-bold text-white py-5'> I'm Raian Ibn Faiz </p>
+                    <p className='text-justify p-3 about-text'>I am a graduate from BRAC University from
+                        department of computer science. I am passionate about building excellent websites that improves
                         the lives of those around me. I specialize in creating websites
                         for clients ranging from individuals and small-businesses all the
-                        way to large enterprise corporations.I am developing my web development skills everyday and I am hopeful that I have the ability to grow more as a web developer. </p>
+                        way to large enterprise corporations.I am developing my web development skills everyday and I am hopeful that I have the ability to grow more as a web developer.
+                    </p>
+
                 </div>
             </div>
         </div>

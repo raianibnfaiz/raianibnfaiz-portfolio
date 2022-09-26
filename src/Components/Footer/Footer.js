@@ -11,7 +11,7 @@ const Footer = () => {
         <footer class="footer footer-center p-10 bg-gradient-to-b from-black via-black to-gray-800 text-white pt-12 ">
             <div class="grid grid-flow-col gap-4">
                 <Link to='about' class="link link-hover">About</Link>
-                <Link to='/' class="link link-hover">Contact</Link>
+                {/* <Link to='/' class="link link-hover">Contact</Link> */}
                 <Link to='projects' class="link link-hover">Works</Link>
 
             </div>

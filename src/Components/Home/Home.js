@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { Link } from "react-scroll";
-
+import './Home.css';
 const Home = () => {
     return (
         <div
@@ -10,9 +10,13 @@ const Home = () => {
         >
             <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                 <div className="flex flex-col justify-center h-full">
-                    <h2 className="text-4xl sm:text-7xl font-bold text-white">
-                        I'm a Front-end Developer
-                    </h2>
+                    <p className='tracking-wide intro text-green-800 py-3'>Hi, my name is</p>
+                    <h1 className=' text-6xl sm:text-5xl font-bold text-[#ccd6f6]'>
+                        Raian Ibn Faiz
+                    </h1>
+                    <p className="pt-4 text-2xl sm:text-4xl font-bold text-white">
+                        I'm a Front-End Developer
+                    </p>
                     <p className="text-gray-500 py-4 max-w-md">
                         I love to work on web application using technologies like
                         React js, Tailwind, Bootstrap, MongoDb and Node js.
@@ -25,7 +29,7 @@ const Home = () => {
                             duration={500}
                             className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
                         >
-                            Portfolio
+                            My Works
                             <span className="group-hover:rotate-90 duration-300">
                                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
                             </span>
