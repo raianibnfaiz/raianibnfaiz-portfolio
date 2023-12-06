@@ -23,10 +23,11 @@ const About = () => {
                 <div className='about-text text-white flex flex-col text-center py-12'>
                     <p className='sm:text-center text-4xl font-bold text-white py-5'> I'm Raian Ibn Faiz </p>
                     <p className='text-justify p-3 about-text'>I am a graduate from BRAC University from
-                        department of computer science. I am passionate about building excellent websites that improves
-                        the lives of those around me. I specialize in creating websites
+                        department of computer science. I am passionate about building excellent websites and mobile apps that improves
+                        the lives of those around me. I am specialized in creating android mobile apps and websites
                         for clients ranging from individuals and small-businesses all the
-                        way to large enterprise corporations.I am developing my web development skills everyday and I am hopeful that I have the ability to grow more as a web developer.
+                        way to large enterprise corporations.
+I am currently working as a Software Engineer at BJIT Limited, where I am continuously enhancing my mobile app and web development skills and growing professionally in this field.
                     </p>
 
                 </div>

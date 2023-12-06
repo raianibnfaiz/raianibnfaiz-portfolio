@@ -3,6 +3,7 @@ import React from 'react';
 import picBg from '../../assets/45.jpg';
 import picBg1 from '../../assets/22.jpg';
 import picBg3 from '../../assets/55.jpg';
+import newsApp from '../../assets/newsApp.png';
 import './Work.css';
 const Work = () => {
     return (
@@ -86,31 +87,27 @@ const Work = () => {
                             </a>
                         </div>
                     </div>
+                
                     <div className="shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105 my-3">
                         <div className="flex flex-col items-center justify-center text-white text-center py-6 px-2">
 
                             <span className='project-title  text-green-200 text-2xl  font-bold text-white tracking-wider '>
 
-                                Personal Savings Banking System
+                                Global News Application
                             </span>
                             <span className='app-type py-3 text-orange-200'>
-                                Javascript Application
+                                Android Mobile App
                             </span>
 
                         </div>
                         <img
-                            src={picBg3}
+                            src={newsApp}
                             alt=""
                             className="rounded-md "
                         />
                         <div className="flex items-center justify-center">
 
-                            <a href='https://solid-personal-bank-webpage.netlify.app/' target="_blank">
-                                <button className="app-type w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                                    Demo
-                                </button>
-                            </a>
-                            <a href='https://github.com/raianibnfaiz/solid-personal-bank-money-master-raianibnfaiz-' target="_blank">
+                            <a href='https://github.com/raianibnfaiz/Global-News-Android-App' target="_blank">
                                 <button className="app-type w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                                     Code
                                 </button>

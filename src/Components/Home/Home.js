@@ -15,11 +15,10 @@ const Home = () => {
                         Raian Ibn Faiz
                     </h1>
                     <p className="pt-4 text-2xl sm:text-4xl font-bold text-white">
-                        I'm a Front-End Developer
+                        I'm a Software Engineer
                     </p>
                     <p className="text-gray-500 py-4 max-w-md">
-                        I love to work on web application using technologies like
-                        React js, Tailwind, Bootstrap, MongoDb and Node js.
+                    I am specialized in Android app development, developing mobile app with Flutter and web applications using React.js, Tailwind, Bootstrap, MongoDB, and Node.js.
                     </p>
 
                     <div>

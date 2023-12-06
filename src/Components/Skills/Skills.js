@@ -8,20 +8,22 @@ import mongoDb from '../../assets/mongo.png';
 import nodeJs from '../../assets/node.png';
 import tailwind from '../../assets/tailwind.png';
 import firebase from '../../assets/firebase.png';
+import flutter from '../../assets/flutter.png';
+import android from '../../assets/android.png';
 
 const Skills = () => {
     const techs = [
         {
             id: 1,
-            src: html,
-            title: "HTML",
+            src: android,
+            title: "Android",
             style: "shadow-orange-500",
         },
         {
             id: 2,
-            src: css,
-            title: "CSS",
-            style: "shadow-blue-500",
+            src: flutter,
+            title: "Flutter",
+            style: "shadow-blue-600",
         },
         {
             id: 3,
@@ -58,6 +60,19 @@ const Skills = () => {
             src: firebase,
             title: "Firebase",
             style: "shadow-blue-600",
+        },
+        {
+            id: 9,
+            src: html,
+            title: "HTML",
+            style: "shadow-orange-500",
+        },
+        {
+            id: 10,
+            src: css,
+            title: "CSS",
+            style: "shadow-blue-500",
+            
         },
 
     ];
