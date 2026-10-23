@@ -45,7 +45,7 @@ const Navbar = () => {
                     Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: "/Resume.pdf",
+            href: "/Raian_Ibn_Faiz_Resume.pdf",
             style: "rounded-br-md",
             download: true,
         },
