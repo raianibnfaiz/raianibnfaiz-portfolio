@@ -22,12 +22,14 @@ const About = () => {
 
                 <div className='about-text text-white flex flex-col text-center py-12'>
                     <p className='sm:text-center text-4xl font-bold text-white py-5'> I'm Raian Ibn Faiz </p>
-                    <p className='text-justify p-3 about-text'>I am a graduate from BRAC University from
-                        department of computer science. I am passionate about building excellent websites and mobile apps that improves
-                        the lives of those around me. I am specialized in creating android mobile apps and websites
-                        for clients ranging from individuals and small-businesses all the
-                        way to large enterprise corporations.
-I am currently working as a Software Engineer at BJIT Limited, where I am continuously enhancing my mobile app and web development skills and growing professionally in this field.
+                    <p className='text-justify p-3 about-text'>I am a Computer Science graduate from BRAC University with 3.5+ years
+                        of experience as a Software Engineer specializing in full-stack and cross-platform development. I am passionate
+                        about solving challenging problems in web and mobile development and building scalable, user-friendly
+                        applications that deliver real value. Currently working as a Senior Software Engineer at BJIT Limited, I take
+                        ownership of end-to-end feature development across mobile (Android/Flutter), web (React/TypeScript), backend
+                        (Node.js/Express), and Microsoft Power Platform/Dataverse solutions. I have delivered multiple production
+                        projects spanning IoT platforms, real-time systems, safety applications, and location-based services while
+                        collaborating in Agile teams throughout the complete feature lifecycle.
                     </p>
 
                 </div>
