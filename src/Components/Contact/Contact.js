@@ -1,26 +1,7 @@
 import React from 'react';
-import {
-    FiMail,
-    FiMapPin,
-} from 'react-icons/fi';
-import { Link } from 'react-scroll';
 import { HiOutlineMail } from 'react-icons/hi';
 import './Contact.css';
 const Contact = () => {
-    const contact = [
-        {
-            icon: <FiMail />,
-            title: 'Have a question?',
-
-            description: 'Email me at raianibnfaiz@gmail.com',
-        },
-        {
-            icon: <FiMapPin />,
-            title: 'Current Location',
-            subtitle: 'Dhaka, Bangladesh',
-            description: 'Serving clients worldwide',
-        },
-    ];
     return (
         <div
             name="contact"

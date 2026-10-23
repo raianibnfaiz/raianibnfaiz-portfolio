@@ -1,8 +1,6 @@
 import React from 'react';
 import {
     FaGithub,
-    FaLinkedin,
-    FaFacebook,
     FaLinkedinIn,
 } from 'react-icons/fa';
 import { Link } from 'react-scroll';
@@ -17,8 +15,8 @@ const Footer = () => {
             </div>
             <div>
                 <div class="grid grid-flow-col gap-4">
-                    <a target="_blank" href="https://www.linkedin.com/in/raian-ibn-faiz/"><FaLinkedinIn size={30} /></a>
-                    <a target="_blank" href="https://github.com/raianibnfaiz"><FaGithub size={30} /></a>
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/raian-ibn-faiz/"><FaLinkedinIn size={30} /></a>
+                    <a target="_blank" rel="noreferrer" href="https://github.com/raianibnfaiz"><FaGithub size={30} /></a>
                 </div>
             </div>
             <div>

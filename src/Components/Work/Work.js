@@ -2,7 +2,6 @@ import React from 'react';
 // import WorkImg from '../assets/workImg.jpeg';
 import picBg from '../../assets/45.jpg';
 import picBg1 from '../../assets/22.jpg';
-import picBg3 from '../../assets/55.jpg';
 import newsApp from '../../assets/newsApp.png';
 import './Work.css';
 const Work = () => {
@@ -42,12 +41,12 @@ const Work = () => {
                         />
                         <div className="flex items-center justify-center">
 
-                            <a href='https://warehouse-management-92018.web.app/' target="_blank">
+                            <a href='https://warehouse-management-92018.web.app/' target="_blank" rel="noreferrer">
                                 <button className="app-type w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                                     Demo
                                 </button>
                             </a>
-                            <a href='https://github.com/raianibnfaiz/cycle-warehouse-management-client-side-raianibnfaiz' target="_blank">
+                            <a href='https://github.com/raianibnfaiz/cycle-warehouse-management-client-side-raianibnfaiz' target="_blank" rel="noreferrer">
                                 <button className="app-type w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                                     Code
                                 </button>
@@ -74,12 +73,12 @@ const Work = () => {
                         />
                         <div className="flex items-center justify-center">
 
-                            <a href='https://manufacturer-website-54002.web.app/' target="_blank">
+                            <a href='https://manufacturer-website-54002.web.app/' target="_blank" rel="noreferrer">
                                 <button className="app-type w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                                     Demo
                                 </button>
                             </a>
-                            <a href='https://github.com/raianibnfaiz/camera-manufacturer-website-client-side-raianibnfaiz' target="_blank">
+                            <a href='https://github.com/raianibnfaiz/camera-manufacturer-website-client-side-raianibnfaiz' target="_blank" rel="noreferrer">
                                 <button className="app-type w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                                     Code
                                 </button>
@@ -107,7 +106,7 @@ const Work = () => {
                         />
                         <div className="flex items-center justify-center">
 
-                            <a href='https://github.com/raianibnfaiz/Global-News-Android-App' target="_blank">
+                            <a href='https://github.com/raianibnfaiz/Global-News-Android-App' target="_blank" rel="noreferrer">
                                 <button className="app-type w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                                     Code
                                 </button>
